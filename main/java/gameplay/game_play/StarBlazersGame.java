@@ -81,7 +81,7 @@ public class StarBlazersGame extends JFrame implements ActionListener, KeyListen
     }
     @Override
     public void keyReleased(KeyEvent e) {
-        // Implementation can be empty if you don't need to handle key released events
+        // Implementation can be empty if we don't need to handle key released events
     }
 
 
@@ -109,7 +109,7 @@ public class StarBlazersGame extends JFrame implements ActionListener, KeyListen
     }
 
     public StarBlazersGame() {
-        lastTime = System.nanoTime();
+        lastTime = System.nanoTime();2
         gameTimer = new Timer(1000 / fps, this);
         gameTimer.setInitialDelay(0);
         gameTimer.start();
